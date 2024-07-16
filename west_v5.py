@@ -3489,6 +3489,7 @@ button6.grid(row = 23, column = 9 )
 
 
 
+
 button7 = tk.Button(win, text = "image", bg="black", fg="white", width=20, command = dim)
 button7.grid(row = 25, column = 9 )
 
