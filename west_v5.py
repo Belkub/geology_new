@@ -3465,6 +3465,7 @@ def dim():
 
 
 
+
      
 button1 = tk.Button(win, text="Browse a File", width=20, command=File_dialog)
 button1.grid(row = 0, column = 9 )
@@ -3486,6 +3487,7 @@ button5.grid(row = 16, column = 9 )
 
 button6 = tk.Button(win, text = "3d-graph", bg="brown", fg="white", width=20, command = dffff)
 button6.grid(row = 23, column = 9 )
+
 
 button7 = tk.Button(win, text = "image", bg="black", fg="white", width=20, command = dim)
 button7.grid(row = 25, column = 9 )
