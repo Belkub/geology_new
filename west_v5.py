@@ -3499,7 +3499,6 @@ button7.grid(row = 25, column = 9 )
 
 win.mainloop()
 
-jjj
 
 
 
