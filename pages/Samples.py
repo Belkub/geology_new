@@ -66,6 +66,7 @@ try:
             bnn = st.checkbox('Вывести сводную таблицу')
             
             if st.button('Показать сводную таблицу'):
+                st.snow()
                 st.dataframe(df_f[number]) 
         else:
             number = list(df_f.columns)
@@ -295,5 +296,6 @@ except:
     st.error("Ошибка ввода данных. Сделайте шаг назад или очистите кэш")
 
 ##       
+
 
 
