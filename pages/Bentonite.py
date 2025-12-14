@@ -58,6 +58,7 @@ try:
                 number = num
             
             if st.button('Вывести таблицу'):
+                st.snow()
                 st.dataframe(df_c[number]) 
             
         else:
