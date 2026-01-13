@@ -3,7 +3,7 @@ streamlit
 cloudpickle
 
 
-
+Pillow
 openpyxl
 
 speechrecognition
@@ -14,3 +14,4 @@ matplotlib
 scipy
 xlsxwriter
 openpyxl
+
