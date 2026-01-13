@@ -11,7 +11,9 @@ import openpyxl as xl
 
 
 import speech_recognition as sr
-
+from PIL import Image
+img = Image.open("bent.png")
+st.image(img, width=150)
 try:
 
     def voice():
@@ -313,6 +315,7 @@ except:
     st.error("Ошибка ввода данных. Сделайте шаг назад или очистите кэш")
 
 ##       
+
 
 
 
